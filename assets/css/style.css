@@ -1,0 +1,59 @@
+@font-face {
+	font-family: open;
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+* {
+	padding: 0;
+	margin: 0;	
+}
+
+body {
+	font-family: open;	
+	background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#container {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#container > h1,button,p {
+	margin-top: 25px;
+}
+
+#container > h1 {
+	font-size: 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+#container > p {
+	font-size: 37px;
+	color: #ffffff;
+}
+
+
+#container > button {
+	padding: 10px 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	background: none;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	transition: all 0.4s;
+	
+
+}
+
+#container > button:hover {
+	transition: all 0.4s;
+	background: #ffffff;
+	color: #000000;
+	cursor: pointer;
+}
